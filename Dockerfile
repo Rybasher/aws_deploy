@@ -17,4 +17,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD [ "forever", "start", "index.js" ]
+CMD [ "node", "index.js" ]
